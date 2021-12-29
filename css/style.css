@@ -1,0 +1,79 @@
+.s-1 {
+	background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: darkred;
+	background-position: center;
+	height: 800px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 42px;
+	color: darkred;
+}
+
+/*section 2*/
+.s-2 {
+	background-color: black;
+	padding: 50px 0;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+
+.s-2-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+/*.line-1 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.line-2 {
+	display: flex;
+	justify-content: space-between;
+}
+*/
+
+.card {
+	width: 320px;
+	height: 400px;
+	background-color: lightcyan;
+}
+
+.card:nth-child(1), .card:nth-child(2), .card:nth-child(3) {
+	margin-bottom: 50px;
+}
+
+
+.card:not(:nth-child(2)) {
+	margin-right: 10px;
+}
+
+.fa-adversal {
+	font-size: 40px;
+	color: red;
+}
+
+.fa-adversal:hover {
+	font-size: 40px;
+	color: green;
+}
+
+.my-icon {
+	font-size: 50px;
+	color: yellow;
+}
+.my-icon:hover {
+	cursor: pointer;
+	color: red;
+}
